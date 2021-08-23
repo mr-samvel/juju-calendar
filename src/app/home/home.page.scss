@@ -25,3 +25,39 @@
 #container a {
   text-decoration: none;
 }
+
+.event0 {
+  background-color: white !important;
+  color: black !important;
+}
+.event1 {
+  background-color: pink !important;
+  color: black !important;
+}
+.event2 {
+  background-color: yellow !important;
+  color: black !important;
+}
+.event3 {
+  background-color: lightblue !important;
+  color: black !important;
+}
+
+calendar {
+  .monthview-container {
+    height: auto !important;
+  }
+  .monthview-current {
+    background-color: transparent !important;
+  }
+  .monthview-selected {
+    background-color: transparent !important;
+    color: black !important;
+  }
+  .monthview-primary-with-event  {
+    background-color: transparent !important;
+  }
+  .monthview-secondary-with-event {
+    background-color: transparent !important;
+  }
+}
